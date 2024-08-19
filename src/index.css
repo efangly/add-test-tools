@@ -1,0 +1,70 @@
+@font-face {
+  font-family: MainFont;
+  src: local("MNPhatKaphrao"),url("./assets/font/THSarabunNew.ttf") format("truetype");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: MainFont;
+  background-color: #e9ddc5;
+}
+
+.btn {
+  text-align: center !important;
+  border: 0;
+}
+
+.card {
+  background-color: #d2d2d2;
+  border: 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-header {
+  background-color: #292526;
+  color: white;
+  border: 4px;
+  border-style: solid;
+  border-color: #ffffff;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
+.card-body {
+  background-color: #e0d2af;
+  color: #292526;
+}
+
+.card-footer {
+  background-color: #434343;
+  color: white;
+}
+
+.card-title {
+  font-size: 1.8em;
+  line-height: 1;
+}
+
+.swal2-modal {
+  font-size: 2.5rem;
+  background-color: #434343;
+  color: #f1f1f1;
+}
+
+.swal2-toast {
+  font-size: 1.5rem;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: .45rem;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(27, 27, 27, .4);
+    border-radius: 3px;
+}
+::-webkit-scrollbar-track{
+    background: transparent;
+}

@@ -1,0 +1,48 @@
+.card-img {
+  max-width: 300px;
+}
+
+.card-title {
+  font-weight: bold;
+  line-height: 1;
+}
+
+.span-qty {
+  font-size: 1.8em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.btn-send {
+  background-color: #8b8b8b;
+  width: 30%;
+  height: 40px;
+}
+
+.btn-add {
+  background-color: #d4c294;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #292526;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.separator::before,
+.separator::after {
+  content: '';
+  flex: 1;
+  border-bottom: 3px solid #292526;
+}
+
+.separator:not(:empty)::before {
+  margin-right: .25em;
+}
+
+.separator:not(:empty)::after {
+  margin-left: .25em;
+}
